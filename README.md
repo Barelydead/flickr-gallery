@@ -23,3 +23,14 @@ yarn
 # Run dev server.
 yarn dev
 ```
+
+## Perfomance
+
+[Cklick here](https://pagespeed.web.dev/report?url=https%3A%2F%2Fflickr-gallery-gray.vercel.app%2F) to run pagespeed analysis.
+
+## Todos and improvments 
+
+- Build out the UI
+- Add automated tests using cypress or other testing framework
+- Change from load more button to infinity scroll
+- Dynamically fetch galleries
