@@ -8,7 +8,7 @@ export default function GalleryCategories() {
         {config.galleries.map((gallery, index) => {
           return (
             <li key={index}>
-              <Link href={`/galleries/${gallery.id}`}>
+              <Link href={`/galleries/${gallery.id}`} replace={true}>
                 <a className="inline-block px-4 bg-slate-200 text-black rounded-sm transition hover:text-white hover:bg-black">{gallery.label}</a>
               </Link>
             </li>
